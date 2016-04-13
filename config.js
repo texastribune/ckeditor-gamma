@@ -108,7 +108,7 @@ CKEDITOR.editorConfig = function( config ) {
 	    styleActiveLine: true,
 
 	     // Set this to the theme you wish to use (codemirror themes)
-	    theme: 'ambiance',
+	    theme: 'paraiso-dark',
 
 	    // "Whether or not to use Beautify for auto formatting
 	    useBeautify: false
