@@ -1,11 +1,13 @@
 CKEditor 4
 ==========
-This is the Texas Tribune's test version of CKEditor used for a minimalist editor
+This is the Texas Tribune's dev version of CKEditor used for a minimalist editor
 within the Django Admin.
 
-We'll be giving it a test drive on our flat pages.
+We're currently giving it a test drive on our flat pages.
 
-It includes a custom TT plugin for auto-linking politicians to their directory pages.
+It includes a custom TT plugin for auto-linking politicians to their directory pages. If you want to test the
+plugin, you'll need to run this editor instance on a simple server and proxy the port to domain name that
+ends in .texastribune.org.
 
 ## Documentation
 
