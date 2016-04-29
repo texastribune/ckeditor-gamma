@@ -6,9 +6,7 @@ CKEDITOR.plugins.add( 'tt_directory', {
         var name = '';
         var directory_url = '/directory/';
 
-        var selection = editor.getSelection();
-        name = selection.getStartElement().$.innerText;
-        console.log(name);
+        name = editor.getSelection().getSelectedText();
         slug = convertToSlug(name);
 
         getPolitician(slug, name);
