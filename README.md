@@ -11,12 +11,11 @@ ends in .texastribune.org.
 
 ## Documentation
 
-Our CKeditor wiki is available at: https://wiki.texastribune.org/x/OI0c.
+The Texas Tribune CKeditor wiki is available at: https://wiki.texastribune.org/x/OI0c.
 
 The full editor documentation is available online at the following address:
 http://docs.ckeditor.com
 
-## Installation
-
-Rather than overriding widget behavior in Django, we're keeping this as js loaded
-where needed. To install, place the appropriate scripts in a template.
+## Deployment
+We're serving the editor source from our CDN bucket
+on S3, which various templates connect to. Jenkins will automatically deploy changes to the master branch to the CDN bucket, and they will therefore be immediately(ish) effective on the production system, so be careful when uploading changes!
