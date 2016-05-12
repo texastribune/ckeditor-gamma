@@ -42,25 +42,25 @@ CKEDITOR.editorConfig = function( config ) {
 	config.codemirror = {
 
 	    // Whether or not you want Brackets to automatically close themselves
-	    autoCloseBrackets: true,
+	    autoCloseBrackets: false,
 
 	     // Whether or not you want tags to automatically close themselves
-	    autoCloseTags: true,
+	    autoCloseTags: false,
 
 	     // Whether or not to automatically format code should be done when the editor is loaded
-	    autoFormatOnStart: true,
+	    autoFormatOnStart: false,
 
 	    // Whether or not to automatically format code which has just been uncommented
-	    autoFormatOnUncomment: true,
+	    autoFormatOnUncomment: false,
 
 	    // Whether or not to continue a comment when you press Enter inside a comment block
 	    continueComments: true,
 
 	     // Whether or not you wish to enable code folding (requires 'lineNumbers' to be set to 'true')
-	    enableCodeFolding: true,
+	    enableCodeFolding: false,
 
 	    // Whether or not to enable code formatting
-	    enableCodeFormatting: true,
+	    enableCodeFormatting: false,
 
 	    // Whether or not to enable search tools, CTRL+F (Find), CTRL+SHIFT+F (Replace), CTRL+SHIFT+R (Replace All), CTRL+G (Find Next), CTRL+SHIFT+G (Find Previous)
 	    enableSearchTools: true,
