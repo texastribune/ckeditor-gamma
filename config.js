@@ -114,5 +114,6 @@ CKEDITOR.editorConfig = function( config ) {
 	    useBeautify: false
 	};
 
+	config.startupMode = 'source';
 	config.extraPlugins = 'tt_directory,resize';
 };
